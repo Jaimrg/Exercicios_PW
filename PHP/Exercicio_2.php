@@ -35,6 +35,7 @@
             <p>
                 <?php
                     function calculamedia(){
+                        
                         if ($_SERVER["REQUEST_METHOD"] == "POST") {
                             $nota_1 = floatval(htmlspecialchars($_REQUEST['nota1']));
                             $nota_2 = floatval(htmlspecialchars($_REQUEST['nota2']));                                                
